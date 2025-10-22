@@ -1,88 +1,31 @@
-# crowdfunding-frontend
+# program-realwizzycrypt Frontend
 
-This is a Next.js app containing:
+This is the **Next.js frontend** for the `program-realwizzycrypt` project.
 
-- Tailwind CSS setup for styling
-- Useful wallet UI elements setup using [@solana/web3.js](https://www.npmjs.com/package/@solana/web3.js)
-- A basic Greeter Solana program written in Anchor
-- UI components for interacting with the Greeter program
+---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Installation
-
-#### Download the template
-
-```shell
-pnpm create solana-dapp@latest -t gh:solana-foundation/templates/web3js/crowdfunding-frontend
+### 1. Clone the Repository
+```bash
+git clone https://github.com/School-of-Solana/program-realwizzycrypt.git
+cd program-realwizzycrypt/frontend
 ```
 
-#### Install Dependencies
-
-```shell
-pnpm install
+### 2. Install Dependencies
+```bash
+# with npm
+npm install
 ```
 
-## Apps
-
-### anchor
-
-This is a Solana program written in Rust using the Anchor framework.
-
-#### Commands
-
-You can use any normal anchor commands. Either move to the `anchor` directory and run the `anchor` command or prefix the
-command with `pnpm`, eg: `pnpm anchor`.
-
-#### Sync the program id:
-
-Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the
-Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
-
-You will manually need to update the constant in `anchor/lib/counter-exports.ts` to match the new program id.
-
-```shell
-pnpm anchor keys sync
+### 3. Run the Development Server
+```bash
+npm run dev
 ```
 
-#### Build the program:
+The app will be available at:
+👉 http://localhost:3000
 
-```shell
-pnpm anchor-build
-```
+### ⚠️ Notes
 
-#### Start the test validator with the program deployed:
-
-```shell
-pnpm anchor-localnet
-```
-
-#### Run the tests
-
-```shell
-pnpm anchor-test
-```
-
-#### Deploy to Devnet
-
-```shell
-pnpm anchor deploy --provider.cluster devnet
-```
-
-### web
-
-This is a React app that uses the Anchor generated client to interact with the Solana program.
-
-#### Commands
-
-Start the web app
-
-```shell
-pnpm dev
-```
-
-Build the web app
-
-```shell
-pnpm build
-```
+Ensure you have Node.js 18+ installed.

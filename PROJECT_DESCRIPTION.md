@@ -1,6 +1,6 @@
 # Project Description
 
-**Deployed Frontend URL:** 
+**Deployed Frontend URL:** https://program-realwizzycrypt.vercel.app/
 
 **Solana Program ID:** H9WF79zZKbKfyLvsBkmeLsFcaqF2pwJwKz9E5feuF83q
 
